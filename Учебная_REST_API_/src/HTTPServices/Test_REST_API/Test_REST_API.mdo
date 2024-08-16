@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62b8edb8-e7bc-4c62-9b6a-5c577767341d">
+  <name>Test_REST_API</name>
+  <synonym>
+    <key>ru</key>
+    <value>Test REST API</value>
+  </synonym>
+  <rootURL>api1</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+</mdclass:HTTPService>
