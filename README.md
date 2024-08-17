@@ -1,7 +1,7 @@
 # TestRA
 <HEAD>
 <h1 align="center">Hi there, I'm <a href="https://dev1c.tech/" target="_blank">Luponos Dmitry aka Bessome</a> 
-<img src="https://github.com/Luponos-Dmitry/TestRA/blob/main/raw/Hi.gif" height="32"/></h1>
+<img src="https://github.com/Luponos-Dmitry/raw/blob/main/Hi.gif" height="32"/></h1>
 <h3 align="center">1C specialist grade middle and Linux & Virtualization DevOps</h3>
 </HEAD>
 <BODY>
