@@ -121,9 +121,7 @@
             <choiceParameters>
               <name>Отбор.Вид</name>
               <value xsi:type="form:FormChoiceListDesTimeValue">
-                <value xsi:type="core:ReferenceValue">
-                  <value>09ca57b0-ea94-41f5-86b9-56d25128c695.a89ee622-6942-411a-8566-f03d139c9e5b</value>
-                </value>
+                <value xsi:type="core:ReferenceValue"/>
               </value>
             </choiceParameters>
           </extInfo>

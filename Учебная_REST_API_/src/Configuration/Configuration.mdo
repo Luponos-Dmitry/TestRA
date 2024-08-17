@@ -1216,6 +1216,7 @@
   <catalogs>Catalog.МакетыПечатныхФорм</catalogs>
   <catalogs>Catalog.НастройкиАвторизацииИнтернетСервисов</catalogs>
   <catalogs>Catalog.ПапкиФайлов</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ПользовательскиеНастройкиОтчетов</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетов</catalogs>
@@ -1231,7 +1232,6 @@
   <catalogs>Catalog.ХранилищеДвоичныхДанных</catalogs>
   <catalogs>Catalog.ШаблоныСообщений</catalogs>
   <catalogs>Catalog.ШаблоныСообщенийПрисоединенныеФайлы</catalogs>
-  <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Товары</catalogs>

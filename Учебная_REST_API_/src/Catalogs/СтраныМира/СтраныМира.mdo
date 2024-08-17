@@ -114,8 +114,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <characteristics>
-    <keyField>0:bd55fd03-cf67-4333-a554-98e03d18f780</keyField>
-    <typesFilterField>0:a587cade-4c91-4769-9c6a-a4fb4fe94196</typesFilterField>
     <typesFilterValue xsi:type="core:StringValue">
       <value>Справочник_СтраныМира</value>
     </typesFilterValue>
