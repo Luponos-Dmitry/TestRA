@@ -68,6 +68,7 @@
   <subsystems>Subsystem.ОсновнойИнтерфейс</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+  <subsystems>Subsystem.Telegram</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовОбычнаяШрифт</styleItems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовЦвет82</styleItems>
@@ -799,6 +800,7 @@
   <commonModules>CommonModule.ШаблоныСообщенийСлужебный</commonModules>
   <commonModules>CommonModule.ШаблоныСообщенийСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыRestApi</commonModules>
+  <commonModules>CommonModule.Telegram_Сервер</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.CurrencyRates</xDTOPackages>
@@ -884,6 +886,7 @@
   <scheduledJobs>ScheduledJob.УдалениеНеактуальнойИнформацииСинхронизации</scheduledJobs>
   <scheduledJobs>ScheduledJob.УдалениеУстаревшихПараметровРаботыВерсийРасширений</scheduledJobs>
   <scheduledJobs>ScheduledJob.УстановкаПорядкаОтложенногоОбновленияВМоделиСервиса</scheduledJobs>
+  <scheduledJobs>ScheduledJob.Telegram_ПрочитатьСообщение</scheduledJobs>
   <settingsStorages>SettingsStorage.ОбщиеНастройки</settingsStorages>
   <settingsStorages>SettingsStorage.ПользовательскиеНастройки</settingsStorages>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
@@ -1105,7 +1108,7 @@
   <commonForms>CommonForm.ФормаВыбораШрифта</commonForms>
   <commonForms>CommonForm.ФормаНастроекОтчета</commonForms>
   <commonForms>CommonForm.ФормаОтчета</commonForms>
-  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Telegram_КомандыСистемы</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
   <catalogs>Catalog.ВерсииФайлов</catalogs>
@@ -1120,7 +1123,7 @@
   <catalogs>Catalog.МакетыПечатныхФорм</catalogs>
   <catalogs>Catalog.НастройкиАвторизацииИнтернетСервисов</catalogs>
   <catalogs>Catalog.ПапкиФайлов</catalogs>
-  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ПользовательскиеНастройкиОтчетов</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетов</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетовРасширений</catalogs>
@@ -1135,6 +1138,7 @@
   <catalogs>Catalog.ХранилищеДвоичныхДанных</catalogs>
   <catalogs>Catalog.ШаблоныСообщений</catalogs>
   <catalogs>Catalog.ШаблоныСообщенийПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
   <enums>Enum.ВариантыИспользованияВнешнихКомпонент</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
   <enums>Enum.ВариантыПериода</enums>
@@ -1177,6 +1181,8 @@
   <enums>Enum.ФорматыСохраненияОтчетов</enums>
   <enums>Enum.ФорматыХраненияМногостраничныхФайлов</enums>
   <enums>Enum.ЦветностиИзображения</enums>
+  <enums>Enum.Telegram_ВидСообщения</enums>
+  <enums>Enum.Telegram_ТипыКоманд</enums>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.КонтрольРассылкиОтчетов</reports>
   <reports>Report.ОбъемНенужныхФайлов</reports>
@@ -1186,6 +1192,7 @@
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.УниверсальныйОтчет</reports>
   <reports>Report.УчастникиГруппПользователей</reports>
+  <reports>Report.Telegram_ИсторияСообщений</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ВводКонтактнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.АктивныеПользователи</dataProcessors>
@@ -1223,6 +1230,7 @@
   <dataProcessors>DataProcessor.ТранспортСообщенийОбменаFTP</dataProcessors>
   <dataProcessors>DataProcessor.УниверсальныйОбменДаннымиXML</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаОбновлений</dataProcessors>
+  <dataProcessors>DataProcessor.Telegram_ОбработкаОтладки</dataProcessors>
   <informationRegisters>InformationRegister.АдминистративнаяИерархия</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
@@ -1300,4 +1308,7 @@
   <informationRegisters>InformationRegister.УдалитьНастройкиТранспортаОбмена</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьРезультатыОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
+  <informationRegisters>InformationRegister.Telegram_ИсторияСообщений</informationRegisters>
+  <informationRegisters>InformationRegister.Telegram_Пользователи</informationRegisters>
+  <informationRegisters>InformationRegister.Telegram_Настройки</informationRegisters>
 </mdclass:Configuration>
