@@ -65,10 +65,13 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Полная</subsystems>
   <subsystems>Subsystem.ОсновнойИнтерфейс</subsystems>
+  <subsystems>Subsystem.Ограниченная</subsystems>
+  <subsystems>Subsystem.Telegram</subsystems>
+  <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
-  <subsystems>Subsystem.Telegram</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовОбычнаяШрифт</styleItems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовЦвет82</styleItems>
@@ -476,6 +479,81 @@
   <commonPictures>CommonPicture.ЭлектронноеПисьмо</commonPictures>
   <commonPictures>CommonPicture.ЯндексКарты</commonPictures>
   <commonPictures>CommonPicture.УдалитьИнформация</commonPictures>
+  <commonPictures>CommonPicture.ДокументЗаписанКоннекторЛево</commonPictures>
+  <commonPictures>CommonPicture.ДокументЗаписанКоннекторЛевоВерх</commonPictures>
+  <commonPictures>CommonPicture.ДокументЗаписанКоннекторЛевоНиз</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияКонтролируемыеСобытия152ФЗ</commonPictures>
+  <commonPictures>CommonPicture.ДокументЗаписанКоннекторВерх</commonPictures>
+  <commonPictures>CommonPicture.ДокументЗаписанКоннекторВерхНиз</commonPictures>
+  <commonPictures>CommonPicture.ДокументЗаписанКоннекторНиз</commonPictures>
+  <commonPictures>CommonPicture.ДокументПомеченНаУдалениеКоннекторВерх</commonPictures>
+  <commonPictures>CommonPicture.ДокументПомеченНаУдалениеКоннекторВерхНиз</commonPictures>
+  <commonPictures>CommonPicture.ДокументПомеченНаУдалениеКоннекторЛево</commonPictures>
+  <commonPictures>CommonPicture.ДокументПомеченНаУдалениеКоннекторЛевоВерх</commonPictures>
+  <commonPictures>CommonPicture.ДокументПомеченНаУдалениеКоннекторЛевоНиз</commonPictures>
+  <commonPictures>CommonPicture.ДокументПомеченНаУдалениеКоннекторНиз</commonPictures>
+  <commonPictures>CommonPicture.ДокументПроведенКоннекторВерх</commonPictures>
+  <commonPictures>CommonPicture.ДокументПроведенКоннекторВерхНиз</commonPictures>
+  <commonPictures>CommonPicture.ДокументПроведенКоннекторЛево</commonPictures>
+  <commonPictures>CommonPicture.ДокументПроведенКоннекторЛевоВерх</commonPictures>
+  <commonPictures>CommonPicture.ДокументПроведенКоннекторЛевоНиз</commonPictures>
+  <commonPictures>CommonPicture.ДокументПроведенКоннекторНиз</commonPictures>
+  <commonPictures>CommonPicture.ДополнительныеРеквизитыСведения</commonPictures>
+  <commonPictures>CommonPicture.ДополнительныеСведения</commonPictures>
+  <commonPictures>CommonPicture.ИсторияВерсий</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияОтсутствуетСогласие</commonPictures>
+  <commonPictures>CommonPicture.КоннекторВерхНиз</commonPictures>
+  <commonPictures>CommonPicture.КоннекторВерхПраво</commonPictures>
+  <commonPictures>CommonPicture.КоннекторВерхПравоНиз</commonPictures>
+  <commonPictures>CommonPicture.КоннекторЛевоНизПраво</commonPictures>
+  <commonPictures>CommonPicture.КоннекторЛевоПраво</commonPictures>
+  <commonPictures>CommonPicture.КоннекторПравоНиз</commonPictures>
+  <commonPictures>CommonPicture.Метка</commonPictures>
+  <commonPictures>CommonPicture.МеткаГолубая</commonPictures>
+  <commonPictures>CommonPicture.МеткаЖелтая</commonPictures>
+  <commonPictures>CommonPicture.МеткаЗеленая</commonPictures>
+  <commonPictures>CommonPicture.МеткаКрасная</commonPictures>
+  <commonPictures>CommonPicture.МеткаЛаймовая</commonPictures>
+  <commonPictures>CommonPicture.МеткаОранжевая</commonPictures>
+  <commonPictures>CommonPicture.МеткаРозовая</commonPictures>
+  <commonPictures>CommonPicture.МеткаСерая</commonPictures>
+  <commonPictures>CommonPicture.МеткаСиняя</commonPictures>
+  <commonPictures>CommonPicture.МеткаФиолетовая</commonPictures>
+  <commonPictures>CommonPicture.НаследованиеВключено</commonPictures>
+  <commonPictures>CommonPicture.НаследованиеВключеноСПапкой</commonPictures>
+  <commonPictures>CommonPicture.НаследованиеОтключено</commonPictures>
+  <commonPictures>CommonPicture.НаследованиеОтключеноСПапкой</commonPictures>
+  <commonPictures>CommonPicture.ОжидаемаяДлительнаяОперация16</commonPictures>
+  <commonPictures>CommonPicture.ОжидаемаяДлительнаяОперация48</commonPictures>
+  <commonPictures>CommonPicture.ОтсутствуетСогласие</commonPictures>
+  <commonPictures>CommonPicture.ПиктограммыСвойств</commonPictures>
+  <commonPictures>CommonPicture.РазделАдминистрирование</commonPictures>
+  <commonPictures>CommonPicture.РазрешитьРедактированиеРеквизитовОбъекта</commonPictures>
+  <commonPictures>CommonPicture.РедактироватьМетки</commonPictures>
+  <commonPictures>CommonPicture.СправочникПВХКоннекторВверх</commonPictures>
+  <commonPictures>CommonPicture.СправочникПВХКоннекторВерхНиз</commonPictures>
+  <commonPictures>CommonPicture.СправочникПВХКоннекторЛево</commonPictures>
+  <commonPictures>CommonPicture.СправочникПВХКоннекторЛевоВерх</commonPictures>
+  <commonPictures>CommonPicture.СправочникПВХКоннекторЛевоНиз</commonPictures>
+  <commonPictures>CommonPicture.СправочникПВХКоннекторНиз</commonPictures>
+  <commonPictures>CommonPicture.СправочникПВХПомеченНаУдалениеКоннекторВерх</commonPictures>
+  <commonPictures>CommonPicture.СправочникПВХПомеченНаУдалениеКоннекторВерхНиз</commonPictures>
+  <commonPictures>CommonPicture.СправочникПВХПомеченНаУдалениеКоннекторЛево</commonPictures>
+  <commonPictures>CommonPicture.СправочникПВХПомеченНаУдалениеКоннекторЛевоВерх</commonPictures>
+  <commonPictures>CommonPicture.СправочникПВХПомеченНаУдалениеКоннекторЛевоНиз</commonPictures>
+  <commonPictures>CommonPicture.СправочникПВХПомеченНаУдалениеКоннекторНиз</commonPictures>
+  <commonPictures>CommonPicture.СтруктураПодчиненности</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаАдминистрированиеИсточника</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаЕстьПраво</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаИспользование</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаИспользованиеИАдминистрированиеИсточника</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаИспользованиеИсточника</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаПолучение</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаПолучениеИУстановка</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаПросмотр</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаРедактирование</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаСоздание</commonPictures>
+  <commonPictures>CommonPicture.УровеньДоступаУстановка</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
   <sessionParameters>SessionParameter.ВерсияРасширений</sessionParameters>
@@ -547,6 +625,9 @@
   <roles>Role.ЧтениеРассылокОтчетов</roles>
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
   <roles>Role.ЧтениеШаблоновСообщений</roles>
+  <roles>Role.Продавец</roles>
+  <roles>Role.Снабженец</roles>
+  <roles>Role.Пользователь</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияПоСозданиюФаксимильнойПодписиИПечати</commonTemplates>
@@ -559,6 +640,9 @@
   <commonTemplates>CommonTemplate.МакетШтемпеляЭЦПOfficeOpen</commonTemplates>
   <commonTemplates>CommonTemplate.ПолучениеДереваОбработчиковОбновления</commonTemplates>
   <commonTemplates>CommonTemplate.ПустойМакетDOCX</commonTemplates>
+  <commonTemplates>CommonTemplate.Макет</commonTemplates>
+  <commonTemplates>CommonTemplate.СтруктураПодчиненности</commonTemplates>
+  <filterCriteria>FilterCriterion.СвязанныеДокументы</filterCriteria>
   <commonModules>CommonModule.АдминистрированиеКластера</commonModules>
   <commonModules>CommonModule.ВнешниеКомпонентыСлужебный</commonModules>
   <commonModules>CommonModule.ВнешниеКомпонентыСлужебныйВызовСервера</commonModules>
@@ -801,6 +885,7 @@
   <commonModules>CommonModule.ШаблоныСообщенийСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыRestApi</commonModules>
   <commonModules>CommonModule.Telegram_Сервер</commonModules>
+  <commonModules>CommonModule.ПроведениеДокументовСервер</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.CurrencyRates</xDTOPackages>
@@ -912,6 +997,7 @@
   <functionalOptions>FunctionalOption.СтандартныеПодсистемыВМоделиСервиса</functionalOptions>
   <functionalOptions>FunctionalOption.ХранитьИсториюРассылкиОтчетов</functionalOptions>
   <functionalOptions>FunctionalOption.ХранитьФайлыВТомахНаДиске</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьДополнительныеРеквизитыИСведения</functionalOptions>
   <definedTypes>DefinedType.ВариантОбновляемогоОтчета</definedTypes>
   <definedTypes>DefinedType.ВладелецШаблонаСообщения</definedTypes>
   <definedTypes>DefinedType.ВладелецПрисоединенныхФайловОбъект</definedTypes>
@@ -934,6 +1020,8 @@
   <definedTypes>DefinedType.ПрисоединенныйФайл</definedTypes>
   <definedTypes>DefinedType.ПрисоединенныйФайлОбъект</definedTypes>
   <definedTypes>DefinedType.ФизическоеЛицо</definedTypes>
+  <definedTypes>DefinedType.ВладелецДополнительныхСведений</definedTypes>
+  <definedTypes>DefinedType.СубъектПерсональныхДанных</definedTypes>
   <commonCommands>CommonCommand.АрхивСообщенийОбменов</commonCommands>
   <commonCommands>CommonCommand.НастройкаКолонтитулов</commonCommands>
   <commonCommands>CommonCommand.ЗагрузитьКомплектПравил</commonCommands>
@@ -970,6 +1058,7 @@
   <commonCommands>CommonCommand.УстановитьРасширениеДляРаботыС1СПредприятием</commonCommands>
   <commonCommands>CommonCommand.ФайлыВТоме</commonCommands>
   <commonCommands>CommonCommand.УдалитьНастройкуСинхронизации</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
   <commandGroups>CommandGroup.ПараметрыСинхронизацииДанных</commandGroups>
@@ -1051,6 +1140,9 @@
   <constants>Constant.ХранитьФайлыВТомахНаДиске</constants>
   <constants>Constant.ЭтоАвтономноеРабочееМесто</constants>
   <constants>Constant.УдалитьНастройкиВходаПользователей</constants>
+  <constants>Constant.ИспользоватьОсновнуюОрганизацию</constants>
+  <constants>Constant.Организация</constants>
+  <constants>Constant.ИспользоватьДополнительныеРеквизитыИСведения</constants>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
   <commonForms>CommonForm.ВспомогательнаяФормаНастроекОтчета</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</commonForms>
@@ -1108,6 +1200,7 @@
   <commonForms>CommonForm.ФормаВыбораШрифта</commonForms>
   <commonForms>CommonForm.ФормаНастроекОтчета</commonForms>
   <commonForms>CommonForm.ФормаОтчета</commonForms>
+  <commonForms>CommonForm.РедактированиеДополнительныхСведений</commonForms>
   <catalogs>Catalog.Telegram_КомандыСистемы</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
@@ -1139,6 +1232,15 @@
   <catalogs>Catalog.ШаблоныСообщений</catalogs>
   <catalogs>Catalog.ШаблоныСообщенийПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Товары</catalogs>
+  <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
+  <catalogs>Catalog.ЗначенияСвойствОбъектов</catalogs>
+  <catalogs>Catalog.ЗначенияСвойствОбъектовИерархия</catalogs>
+  <catalogs>Catalog.НаборыДополнительныхРеквизитовИСведений</catalogs>
+  <documents>Document.ПриходТовара</documents>
+  <documents>Document.РасходТовара</documents>
   <enums>Enum.ВариантыИспользованияВнешнихКомпонент</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
   <enums>Enum.ВариантыПериода</enums>
@@ -1183,6 +1285,23 @@
   <enums>Enum.ЦветностиИзображения</enums>
   <enums>Enum.Telegram_ВидСообщения</enums>
   <enums>Enum.Telegram_ТипыКоманд</enums>
+  <enums>Enum.ФормыНалогообложения</enums>
+  <enums>Enum.ВидыДнейПроизводственногоКалендаря</enums>
+  <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
+  <enums>Enum.ВариантыВерсионированияОбъектов</enums>
+  <enums>Enum.ВариантыОтображенияМеток</enums>
+  <enums>Enum.ВидыДополнительныхОтчетовИОбработок</enums>
+  <enums>Enum.ВидыСвойств</enums>
+  <enums>Enum.ДополнительныеЗначенияДоступа</enums>
+  <enums>Enum.ОперацииАдминистрированияПрофилейБезопасности</enums>
+  <enums>Enum.РежимыСовместимостиРазрешенийДополнительныхОтчетовИОбработок</enums>
+  <enums>Enum.СостоянияЗапросовНаИспользованиеВнешнихРесурсов</enums>
+  <enums>Enum.СостоянияСубъектовДляСкрытия</enums>
+  <enums>Enum.СпособыВызоваДополнительныхОбработок</enums>
+  <enums>Enum.СпособыЗаполненияГрафикаРаботы</enums>
+  <enums>Enum.СрокиХраненияВерсий</enums>
+  <enums>Enum.ТипыВерсийОбъекта</enums>
+  <enums>Enum.ЦветаСвойств</enums>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.КонтрольРассылкиОтчетов</reports>
   <reports>Report.ОбъемНенужныхФайлов</reports>
@@ -1231,6 +1350,9 @@
   <dataProcessors>DataProcessor.УниверсальныйОбменДаннымиXML</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаОбновлений</dataProcessors>
   <dataProcessors>DataProcessor.Telegram_ОбработкаОтладки</dataProcessors>
+  <dataProcessors>DataProcessor.ГрупповоеИзменениеРеквизитов</dataProcessors>
+  <dataProcessors>DataProcessor.ПоискИУдалениеДублей</dataProcessors>
+  <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
   <informationRegisters>InformationRegister.АдминистративнаяИерархия</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
@@ -1311,4 +1433,9 @@
   <informationRegisters>InformationRegister.Telegram_ИсторияСообщений</informationRegisters>
   <informationRegisters>InformationRegister.Telegram_Пользователи</informationRegisters>
   <informationRegisters>InformationRegister.Telegram_Настройки</informationRegisters>
+  <informationRegisters>InformationRegister.СредняяЦена</informationRegisters>
+  <informationRegisters>InformationRegister.ДополнительныеСведения</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОборотыТоваров</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
 </mdclass:Configuration>
