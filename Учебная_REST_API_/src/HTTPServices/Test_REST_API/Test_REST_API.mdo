@@ -14,14 +14,23 @@
       <key>ru</key>
       <value>About</value>
     </synonym>
-    <template>/about/*</template>
+    <template>/info/*</template>
     <methods uuid="c5bb329a-2bc1-4e48-8843-2048f95d7a9f">
-      <name>me</name>
+      <name>about</name>
       <synonym>
         <key>ru</key>
-        <value>Me</value>
+        <value>About</value>
       </synonym>
       <handler>aboutme</handler>
+    </methods>
+    <methods uuid="0e9f480b-9cdf-4e53-ac71-6a06567c3ebb">
+      <name>o</name>
+      <synonym>
+        <key>ru</key>
+        <value>O</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>abouto</handler>
     </methods>
   </urlTemplates>
 </mdclass:HTTPService>
