@@ -554,6 +554,7 @@
   <commonPictures>CommonPicture.УровеньДоступаРедактирование</commonPictures>
   <commonPictures>CommonPicture.УровеньДоступаСоздание</commonPictures>
   <commonPictures>CommonPicture.УровеньДоступаУстановка</commonPictures>
+  <commonPictures>CommonPicture.КартинкаRestAPI</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
   <sessionParameters>SessionParameter.ВерсияРасширений</sessionParameters>

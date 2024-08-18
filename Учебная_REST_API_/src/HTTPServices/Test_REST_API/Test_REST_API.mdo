@@ -8,4 +8,20 @@
   <rootURL>api1</rootURL>
   <reuseSessions>AutoUse</reuseSessions>
   <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="a3f56b14-9209-4a0c-b489-0a8b8962f9a5">
+    <name>about</name>
+    <synonym>
+      <key>ru</key>
+      <value>About</value>
+    </synonym>
+    <template>/about/*</template>
+    <methods uuid="c5bb329a-2bc1-4e48-8843-2048f95d7a9f">
+      <name>me</name>
+      <synonym>
+        <key>ru</key>
+        <value>Me</value>
+      </synonym>
+      <handler>aboutme</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>
