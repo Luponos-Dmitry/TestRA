@@ -10,6 +10,7 @@
   </synonym>
   <type>
     <types>CatalogRef.ПапкиФайлов</types>
+    <types>CatalogRef.Номенклатура</types>
     <types>CatalogRef.ШаблоныСообщений</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
   </type>

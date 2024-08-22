@@ -7,14 +7,14 @@
     <listType typeId="c570d90d-6ae4-476f-a250-9d1263130404" valueTypeId="9d1bbd6b-e324-4a1f-b02b-44889f677a9c"/>
     <managerType typeId="2d0fd08e-2476-4e6b-ab3d-ebc2dd5c3a3b" valueTypeId="082ae037-bf59-484d-bc12-d62f1b76a5eb"/>
   </producedTypes>
-  <name>Товары</name>
+  <name>Номенклатура</name>
   <synonym>
     <key>ru</key>
-    <value>Товары</value>
+    <value>Номенклатура</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Товары.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.Товары.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -106,4 +106,38 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1ca15be0-607d-4703-8a73-16b20a7b5bcb">
+    <name>Guid</name>
+    <synonym>
+      <key>ru</key>
+      <value>Guid</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="50744f26-f40d-470a-aef2-b53df31cb648">
+    <name>ВладелецФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

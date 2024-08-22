@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b7fb938-bc6a-488c-b960-ecca90a38e17">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2600a006-893f-4b7e-9db6-7c663fd7a7d1">
   <producedTypes>
-    <selectionType typeId="abdf8263-51d7-4b30-877d-e65ca796a0cb" valueTypeId="d3171a85-1366-4814-8a82-2fc960520580"/>
-    <listType typeId="e825368e-c329-4d8a-80b3-b2358d3af76e" valueTypeId="4c46d6f1-b9a2-4a5d-9285-78e47e7f295e"/>
-    <managerType typeId="324a6b0e-8f95-4ef3-ba40-1a186348afa7" valueTypeId="493beddb-3727-486e-ad44-524840e5643f"/>
-    <recordSetType typeId="c1fa8215-23a9-46d6-8458-c7d45678ab79" valueTypeId="f2eec8b2-843b-4428-8c20-20b0ea8f8c21"/>
-    <recordKeyType typeId="a52b1159-e7d0-4fd6-8a8f-d5692df92ade" valueTypeId="98113336-369c-4ce9-96c4-374f9355c9e2"/>
-    <recordType typeId="9fd4dcd5-19e8-44a3-8343-54cc07e14275" valueTypeId="c2d8b7cd-30be-4ee6-b5e1-c4820156237f"/>
-    <recordManagerType typeId="3b70b711-e5f4-4944-aaf2-a2f7c1269f24" valueTypeId="c38c9c4c-cba6-4b50-94f7-3e9ace74ba04"/>
+    <selectionType typeId="31b4a6c5-62fc-41c0-94f3-5aaa6e62fde4" valueTypeId="9342f612-048b-4092-bbb0-f3b378258213"/>
+    <listType typeId="e3f32d12-9527-4e92-b72d-16f070c267cb" valueTypeId="50652d29-0a19-45e1-80a3-9131d07c2529"/>
+    <managerType typeId="49b661a5-da44-441f-ac5d-d995e198024b" valueTypeId="4e5034b3-cd04-4db9-bd76-73892704e687"/>
+    <recordSetType typeId="0ffc44ac-d245-4ec5-ba12-bfff4d4a603e" valueTypeId="f292f1dc-bcd5-412a-8675-76244826d677"/>
+    <recordKeyType typeId="be057247-132a-4a3a-82c8-7bc10a24991d" valueTypeId="804a45b5-d6e1-4afc-be53-6d942e58cf11"/>
+    <recordType typeId="0e7fa146-f3d4-448f-b09b-ad2e01aac7c0" valueTypeId="0562c9ee-fd52-49c4-a379-56e112574b03"/>
+    <recordManagerType typeId="217e28f6-6201-49dd-803b-01431e7d7210" valueTypeId="36fbf86b-af47-41f6-8132-eb5ff7dbf913"/>
   </producedTypes>
-  <name>СредняяЦена</name>
+  <name>RAСообщения</name>
   <synonym>
     <key>ru</key>
-    <value>Средняя цена</value>
+    <value>RAСообщения</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
-  <defaultListForm>InformationRegister.СредняяЦена.Form.ФормаСписка</defaultListForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
@@ -50,55 +49,66 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
-  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
-  <writeMode>RecorderSubordinate</writeMode>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="2b7539cf-1119-467d-a269-17689174022f">
-    <name>Цена</name>
+  <attributes uuid="404bda26-c204-4845-b8d7-d3b872972d60">
+    <name>ТекстСообщения</name>
     <synonym>
       <key>ru</key>
-      <value>Цена</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>2</scale>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
-  <dimensions uuid="e68ea973-1a67-477d-9ea6-cfd542a40546">
-    <name>Документ</name>
-    <synonym>
-      <key>ru</key>
-      <value>Документ</value>
+      <value>Текст сообщения</value>
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <stringQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
-  </dimensions>
-  <dimensions uuid="3ecfdeef-e2a6-46dc-960d-5088c29f8fcc">
-    <name>Товар</name>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="a9f885f7-68a4-4a61-9b57-749a793b1bce">
+    <name>СодержимоеФайла</name>
     <synonym>
       <key>ru</key>
-      <value>Товар</value>
+      <value>Содержимое файла</value>
     </synonym>
     <type>
-      <types>CatalogRef.Номенклатура</types>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="7db083d7-d6da-4f38-88ec-cae01afb1284">
+    <name>GuidСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Guid сообщения</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e954255a-a59f-424d-b4da-2695c1334fa1">
+    <name>Ссылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -107,13 +117,4 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <forms uuid="c546ca73-74ce-43d6-bc01-ab17438b513c">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
 </mdclass:InformationRegister>

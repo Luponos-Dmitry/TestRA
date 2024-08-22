@@ -11,6 +11,9 @@
   <type>
     <types>CatalogObject.ПапкиФайлов</types>
     <types>CatalogObject.ШаблоныСообщений</types>
+    <types>CatalogObject.Номенклатура</types>
+    <types>DocumentObject.ПриходТовара</types>
     <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>
+    <types>DocumentObject.РасходТовара</types>
   </type>
 </mdclass:DefinedType>

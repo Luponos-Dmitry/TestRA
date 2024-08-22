@@ -99,6 +99,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="a608d44d-fb11-45b7-b827-34684a7e5ef5">
+    <name>СтатусДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус документа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусДокумента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="7d31f022-2965-4ad7-aa20-309a117d009e">
     <producedTypes>
       <objectType typeId="97b400ba-a517-4178-b618-fd51e95b5b41" valueTypeId="ae7c2a20-8a2a-4bde-8fd3-4e8506b3ff3f"/>
@@ -124,7 +139,7 @@
         <value>Товар</value>
       </synonym>
       <type>
-        <types>CatalogRef.Товары</types>
+        <types>CatalogRef.Номенклатура</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

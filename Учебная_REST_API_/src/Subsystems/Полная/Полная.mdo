@@ -18,4 +18,6 @@
   <content>AccumulationRegister.ОборотыТоваров</content>
   <content>Catalog.Валюты</content>
   <content>InformationRegister.КурсыВалют</content>
+  <content>InformationRegister.IpRF</content>
+  <content>DataProcessor.IpRFВФорматеRouterOS</content>
 </mdclass:Subsystem>

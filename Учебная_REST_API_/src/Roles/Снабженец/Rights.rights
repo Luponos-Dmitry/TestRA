@@ -158,7 +158,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Товары</name>
+		<name>Catalog.Номенклатура</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

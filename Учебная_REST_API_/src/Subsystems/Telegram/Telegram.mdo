@@ -13,4 +13,5 @@
   <content>InformationRegister.Telegram_Настройки</content>
   <content>DataProcessor.Telegram_ОбработкаОтладки</content>
   <content>Report.Telegram_ИсторияСообщений</content>
+  <content>InformationRegister.IpRF</content>
 </mdclass:Subsystem>

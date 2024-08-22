@@ -1197,7 +1197,7 @@
 	Словарь.Вставить("товар", "OwnGoods"); // @NON-NLS-1 @NON-NLS-2
 	Словарь.Вставить("товармаркируемыйсиимеющийкм", "GoodsMarkedByIdentificationToolWithMarkingCode"); // @NON-NLS-1 @NON-NLS-2
 	Словарь.Вставить("товармаркируемыйсинеимеющийкм", "GoodsMarkedByIdentificationToolWithoutMarkingCode"); // @NON-NLS-1 @NON-NLS-2
-	Словарь.Вставить("товары", "Goods"); // @NON-NLS-1 @NON-NLS-2
+	Словарь.Вставить("Номенклатура", "Goods"); // @NON-NLS-1 @NON-NLS-2
 	Словарь.Вставить("товарывозвратпродажи", "GoodsReturnSales"); // @NON-NLS-1 @NON-NLS-2
 	Словарь.Вставить("товарыпродажа", "GoodsSale"); // @NON-NLS-1 @NON-NLS-2
 	Словарь.Вставить("торг12", "Auction12"); // @NON-NLS-1 @NON-NLS-2
@@ -1851,7 +1851,7 @@
 	Словарь.Вставить("giftcertificates", "ПодарочныеСертификаты"); // @NON-NLS-1 @NON-NLS-2
 	Словарь.Вставить("giverrawmaterialsandsupplies", "ДавальческиеСырьеИМатериалы"); // @NON-NLS-1 @NON-NLS-2
 	Словарь.Вставить("glaccount", "СчетУчета"); // @NON-NLS-1 @NON-NLS-2
-	Словарь.Вставить("goods", "Товары"); // @NON-NLS-1 @NON-NLS-2
+	Словарь.Вставить("goods", "Номенклатура"); // @NON-NLS-1 @NON-NLS-2
 	Словарь.Вставить("goodscost", "СтоимостьТоваров"); // @NON-NLS-1 @NON-NLS-2
 	Словарь.Вставить("goodsmarkedbyidentificationtoolwithmarkingcode", "ТоварМаркируемыйСИИмеющийКМ"); // @NON-NLS-1 @NON-NLS-2
 	Словарь.Вставить("goodsmarkedbyidentificationtoolwithoutmarkingcode", "ТоварМаркируемыйСИНеИмеющийКМ"); // @NON-NLS-1 @NON-NLS-2

@@ -887,6 +887,7 @@
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыRestApi</commonModules>
   <commonModules>CommonModule.Telegram_Сервер</commonModules>
   <commonModules>CommonModule.ПроведениеДокументовСервер</commonModules>
+  <commonModules>CommonModule.TestRAМодули</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.CurrencyRates</xDTOPackages>
@@ -1235,11 +1236,15 @@
   <catalogs>Catalog.ШаблоныСообщенийПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
-  <catalogs>Catalog.Товары</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
   <catalogs>Catalog.ЗначенияСвойствОбъектов</catalogs>
   <catalogs>Catalog.ЗначенияСвойствОбъектовИерархия</catalogs>
   <catalogs>Catalog.НаборыДополнительныхРеквизитовИСведений</catalogs>
+  <catalogs>Catalog.ТомаФайлов</catalogs>
+  <catalogs>Catalog.НоменклатураПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.ПриходТовараПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.РасходТовараПрисоединенныеФайлы</catalogs>
   <documents>Document.ПриходТовара</documents>
   <documents>Document.РасходТовара</documents>
   <enums>Enum.ВариантыИспользованияВнешнихКомпонент</enums>
@@ -1303,6 +1308,7 @@
   <enums>Enum.СрокиХраненияВерсий</enums>
   <enums>Enum.ТипыВерсийОбъекта</enums>
   <enums>Enum.ЦветаСвойств</enums>
+  <enums>Enum.СтатусДокумента</enums>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.КонтрольРассылкиОтчетов</reports>
   <reports>Report.ОбъемНенужныхФайлов</reports>
@@ -1354,6 +1360,7 @@
   <dataProcessors>DataProcessor.ГрупповоеИзменениеРеквизитов</dataProcessors>
   <dataProcessors>DataProcessor.ПоискИУдалениеДублей</dataProcessors>
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
+  <dataProcessors>DataProcessor.IpRFВФорматеRouterOS</dataProcessors>
   <informationRegisters>InformationRegister.АдминистративнаяИерархия</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
@@ -1436,6 +1443,8 @@
   <informationRegisters>InformationRegister.Telegram_Настройки</informationRegisters>
   <informationRegisters>InformationRegister.СредняяЦена</informationRegisters>
   <informationRegisters>InformationRegister.ДополнительныеСведения</informationRegisters>
+  <informationRegisters>InformationRegister.IpRF</informationRegisters>
+  <informationRegisters>InformationRegister.RAСообщения</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОборотыТоваров</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>

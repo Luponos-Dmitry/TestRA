@@ -8,7 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Организации</content>
-  <content>Catalog.Товары</content>
+  <content>Catalog.Номенклатура</content>
   <content>Catalog.Контрагенты</content>
   <content>Document.ПриходТовара</content>
   <content>AccumulationRegister.ОстаткиТоваров</content>
@@ -16,4 +16,8 @@
   <content>AccumulationRegister.ОборотыТоваров</content>
   <content>Catalog.Валюты</content>
   <content>InformationRegister.КурсыВалют</content>
+  <content>InformationRegister.RAСообщения</content>
+  <content>Catalog.ТомаФайлов</content>
+  <content>Enum.СтатусДокумента</content>
+  <content>Document.РасходТовара</content>
 </mdclass:Subsystem>

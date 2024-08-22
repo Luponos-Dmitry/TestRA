@@ -9,6 +9,9 @@
     <value>Присоединенный файл</value>
   </synonym>
   <type>
+    <types>CatalogRef.НоменклатураПрисоединенныеФайлы</types>
+    <types>CatalogRef.РасходТовараПрисоединенныеФайлы</types>
+    <types>CatalogRef.ПриходТовараПрисоединенныеФайлы</types>
     <types>CatalogRef.Файлы</types>
     <types>CatalogRef.ВерсииФайлов</types>
     <types>CatalogRef.ШаблоныСообщенийПрисоединенныеФайлы</types>
