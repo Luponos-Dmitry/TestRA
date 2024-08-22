@@ -1145,6 +1145,7 @@
   <constants>Constant.ИспользоватьОсновнуюОрганизацию</constants>
   <constants>Constant.Организация</constants>
   <constants>Constant.ИспользоватьДополнительныеРеквизитыИСведения</constants>
+  <constants>Constant.АдресПубликацииБазы</constants>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
   <commonForms>CommonForm.ВспомогательнаяФормаНастроекОтчета</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</commonForms>
