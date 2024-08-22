@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3648d82e-beff-4531-b24b-d9ca21699716">
+  <producedTypes>
+    <objectType typeId="bbfea180-8374-46bb-8b7b-402fbb239c83" valueTypeId="092599c6-57f4-43a1-bfa2-5dcab5a6f2ea"/>
+    <managerType typeId="4375093f-6f8e-4edd-a0fd-e5c46e4e5580" valueTypeId="3c11b42c-1f01-4175-81e4-c7e2b694b624"/>
+  </producedTypes>
+  <name>РегламентныеЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентные задания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>
