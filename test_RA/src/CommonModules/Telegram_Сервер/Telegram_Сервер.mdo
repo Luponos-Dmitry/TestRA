@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b940dd4a-2e93-4e27-a4f7-75a865c50b2e">
+  <name>Telegram_Сервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Telegram сервер</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

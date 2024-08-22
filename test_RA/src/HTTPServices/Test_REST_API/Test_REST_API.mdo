@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62b8edb8-e7bc-4c62-9b6a-5c577767341d">
+  <name>Test_REST_API</name>
+  <synonym>
+    <key>ru</key>
+    <value>Test REST API</value>
+  </synonym>
+  <rootURL>api1</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="a3f56b14-9209-4a0c-b489-0a8b8962f9a5">
+    <name>about</name>
+    <synonym>
+      <key>ru</key>
+      <value>About</value>
+    </synonym>
+    <template>/info/*</template>
+    <methods uuid="c5bb329a-2bc1-4e48-8843-2048f95d7a9f">
+      <name>about</name>
+      <synonym>
+        <key>ru</key>
+        <value>About</value>
+      </synonym>
+      <handler>aboutme</handler>
+    </methods>
+    <methods uuid="0e9f480b-9cdf-4e53-ac71-6a06567c3ebb">
+      <name>o</name>
+      <synonym>
+        <key>ru</key>
+        <value>O</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>abouto</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="24476ee1-e3a8-44b5-8f07-9ab9a6c6a09f">
+    <name>IPRF</name>
+    <synonym>
+      <key>ru</key>
+      <value>IPRF</value>
+    </synonym>
+    <template>/iprf/*</template>
+    <methods uuid="897fe63e-c7ec-4290-aebc-9f4c70aaaaf9">
+      <name>sendfile</name>
+      <synonym>
+        <key>ru</key>
+        <value>Sendfile</value>
+      </synonym>
+      <handler>IPRFsendfile</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
