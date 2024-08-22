@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a71d5d6-0771-4946-a77d-9aa1638b8327">
+  <producedTypes>
+    <managerType typeId="0e47b6e6-789a-4103-9dd6-2946ed4c9b4f" valueTypeId="19cdce25-a69c-451b-ac92-2e99d2ecea99"/>
+    <valueManagerType typeId="a6825004-2be6-48ab-852d-32025ac70b20" valueTypeId="cdf0f5d5-1b26-4ad0-a897-c1b627551030"/>
+    <valueKeyType typeId="71b9a7f7-7056-4f28-8e0d-e74873ca099d" valueTypeId="093f45b7-9979-4509-880b-ec6d62c6646e"/>
+  </producedTypes>
+  <name>ВыполняетсяЗагрузкаДанныхРИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполняется загрузка данных РИБ</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
