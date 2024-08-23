@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec3dba8a-b08b-41fa-a3eb-509e5a54cefb">
+  <name>ТестовыйМодульОтЕлены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестовый модуль от елены</value>
+  </synonym>
+  <comment>НУЖНО УДАЛИТЬ</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
