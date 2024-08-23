@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b248dea-d189-4447-b996-e579669784bb">
+  <producedTypes>
+    <objectType typeId="7dfa30f4-ef2d-4ade-9abc-4536bb9c066c" valueTypeId="d5461a26-22d7-40ff-992d-c9e9ee5b2eb1"/>
+    <managerType typeId="88df8948-fd49-441e-bab9-d589450fd4c8" valueTypeId="592ed7cd-c804-4f10-814e-8b495d2327b8"/>
+  </producedTypes>
+  <name>Telegram_ИсторияСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Telegram история сообщений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Telegram_ИсторияСообщений.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="356c725e-2ab4-4a97-9ac5-3a8a4a9c9ff3">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

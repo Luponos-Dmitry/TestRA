@@ -10,4 +10,12 @@
     <value>Регламентные задания</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <templates uuid="5a2e7fff-773a-4299-99b7-5199f1651f9b">
+    <name>СхемаЗапросаПоКурсуВалют</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема запроса по курсу валют</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
 </mdclass:DataProcessor>
