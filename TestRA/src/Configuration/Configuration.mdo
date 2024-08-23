@@ -888,6 +888,7 @@
   <commonModules>CommonModule.Telegram_Сервер</commonModules>
   <commonModules>CommonModule.ПроведениеДокументовСервер</commonModules>
   <commonModules>CommonModule.ТестовыйМодуль</commonModules>
+  <commonModules>CommonModule.ТестовыйМодуль1</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.CurrencyRates</xDTOPackages>
