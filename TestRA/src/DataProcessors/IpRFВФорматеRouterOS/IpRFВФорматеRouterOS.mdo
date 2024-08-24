@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab505521-fa7a-4003-8ff4-61df67bff6b4">
+  <producedTypes>
+    <objectType typeId="6a18ac08-84c7-4a51-ba30-b0a41b666218" valueTypeId="2ca9168e-2b45-4f9b-9948-b9af62c7d8a1"/>
+    <managerType typeId="870a099e-a6ea-44b8-a1bf-8e8747e2336a" valueTypeId="a1782100-5b8c-41b1-8334-28332431e030"/>
+  </producedTypes>
+  <name>IpRFВФорматеRouterOS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ip RFВФормате router OS</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.IpRFВФорматеRouterOS.Form.Форма</defaultForm>
+  <tabularSections uuid="162102bd-15d9-4b19-bbcb-0013680553ec">
+    <producedTypes>
+      <objectType typeId="121c607b-f889-4924-af8f-11afda9c2c37" valueTypeId="31ad6cfb-5e65-45c5-b843-c9c273000d01"/>
+      <rowType typeId="83b77995-d522-41ea-88a8-a31b97715099" valueTypeId="606a02e0-b592-4f9a-9762-81db0543b765"/>
+    </producedTypes>
+    <name>ТаблицаIP4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица ip 4</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="6883f10d-051b-4ac0-b798-fe509d37df56">
+      <name>ip</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ip</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>19</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="ec476d82-4153-4e80-be36-0ac79d49b244">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
