@@ -86,5 +86,4 @@
   <content>DataProcessor.ТранспортСообщенийОбменаFTP</content>
   <content>DataProcessor.УниверсальныйОбменДаннымиXML</content>
   <content>DataProcessor.УстановкаОбновлений</content>
-  <content>Constant.АдресПубликацииБазы</content>
 </mdclass:Subsystem>

@@ -2502,6 +2502,18 @@
       <common>true</common>
     </edit>
     <settingsSavedData xsi:type="form:DataPath">
+      <segments>1/0:28497538-35a5-4698-80cb-8935787c3903</segments>
+    </settingsSavedData>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>1/0:2df5390d-4ee8-4716-af67-3dbe7437f4f7</segments>
+    </settingsSavedData>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>1/0:5d07bae6-89d7-4869-99ad-19723153f72c</segments>
+    </settingsSavedData>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>1/0:8ac1a99d-8ca3-4f14-9ddf-9f3aea74f062</segments>
+    </settingsSavedData>
+    <settingsSavedData xsi:type="form:DataPath">
       <segments>Объект.ВерсияФормата</segments>
     </settingsSavedData>
     <settingsSavedData xsi:type="form:DataPath">

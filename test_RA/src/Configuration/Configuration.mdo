@@ -888,6 +888,7 @@
   <commonModules>CommonModule.Telegram_Сервер</commonModules>
   <commonModules>CommonModule.ПроведениеДокументовСервер</commonModules>
   <commonModules>CommonModule.TestRAМодули</commonModules>
+  <commonModules>CommonModule.ТестовыйМодульОтЕлены</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.CurrencyRates</xDTOPackages>
@@ -1362,6 +1363,7 @@
   <dataProcessors>DataProcessor.ПоискИУдалениеДублей</dataProcessors>
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
   <dataProcessors>DataProcessor.IpRFВФорматеRouterOS</dataProcessors>
+  <dataProcessors>DataProcessor.РегламентныеЗадания</dataProcessors>
   <informationRegisters>InformationRegister.АдминистративнаяИерархия</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
