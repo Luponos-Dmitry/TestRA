@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91f4841e-98db-416a-a99f-b5e6dc658399">
+  <producedTypes>
+    <refType typeId="20d09775-8b82-4cc4-8e4e-8747ab40db86" valueTypeId="b3763abf-4e78-4007-a669-fa214e6d3cb7"/>
+    <listType typeId="5906a15c-20da-4a6f-84c7-f0d84362429c" valueTypeId="1f867c1c-a705-48d5-99c8-58b37ab2e3b4"/>
+    <managerType typeId="bcdc9acb-ac71-4d0b-9ee8-136baf1da831" valueTypeId="471e2be8-9437-4c1b-b1b8-cbf938d4c0aa"/>
+  </producedTypes>
+  <name>Telegram_ВидСообщения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Telegram Вид сообщения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1d761830-c982-4244-8f53-19b128258d41">
+    <name>Входящее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящее</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0a453ce3-bad2-4aa2-b089-f2c56556ed8f">
+    <name>Исходящее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

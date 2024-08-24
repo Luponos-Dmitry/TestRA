@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SettingsStorage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="070a1c1b-94bd-4b1b-a355-2148fcf8c177">
+  <producedTypes>
+    <managerType typeId="9aaee461-f6d4-4177-b3a3-ca3a9339d4ca" valueTypeId="a223a164-ecac-4b5b-adcc-3aede462eee0"/>
+  </producedTypes>
+  <name>ПользовательскиеНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользовательские настройки</value>
+  </synonym>
+</mdclass:SettingsStorage>

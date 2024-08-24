@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3da087b9-0b12-4ab0-a49d-f0096a33893d">
+  <name>Ограниченная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограниченная</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Организации</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Document.ПриходТовара</content>
+  <content>AccumulationRegister.ОстаткиТоваров</content>
+  <content>InformationRegister.СредняяЦена</content>
+  <content>AccumulationRegister.ОборотыТоваров</content>
+  <content>Catalog.Валюты</content>
+  <content>InformationRegister.КурсыВалют</content>
+  <content>InformationRegister.RAСообщения</content>
+  <content>Catalog.ТомаФайлов</content>
+  <content>Enum.СтатусДокумента</content>
+  <content>Document.РасходТовара</content>
+</mdclass:Subsystem>
