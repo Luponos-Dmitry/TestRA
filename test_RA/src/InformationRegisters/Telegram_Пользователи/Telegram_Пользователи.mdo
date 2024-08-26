@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14ae0e45-bad7-4a28-b7a6-f6bcb306b0ae">
+  <producedTypes>
+    <selectionType typeId="992cd04b-a734-4976-a030-3fbaa8ab673f" valueTypeId="3b53256e-305b-4e03-b587-b1e261aed0ff"/>
+    <listType typeId="e53f6fee-177c-4923-be88-678f66c4999b" valueTypeId="d0b7d595-fdd5-45fc-b138-6324b06eb8ac"/>
+    <managerType typeId="5d7be2a5-1e78-492e-a4b1-e54ab50399cf" valueTypeId="4fad9233-365d-4bae-95b4-58bd45be0544"/>
+    <recordSetType typeId="3762b90c-7cce-4d55-8567-1e27f97a5db1" valueTypeId="4bc500ef-e3f9-47f3-9baf-b2566fe724e1"/>
+    <recordKeyType typeId="43c937fa-8997-415a-9c01-b4419d005e00" valueTypeId="aa8dc7dc-750d-4431-90aa-8caf8d6c2a18"/>
+    <recordType typeId="7a0cf52c-9b8d-46c3-9752-d79a70239357" valueTypeId="b694f4cd-d77e-42a0-acee-10a9e9e48011"/>
+    <recordManagerType typeId="de6bbccf-a607-43f7-9fa6-3254a8786429" valueTypeId="0c6c1845-33c3-4cb9-9a0a-18a1ad5e7457"/>
+  </producedTypes>
+  <name>Telegram_Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Telegram пользователи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d1b3c5d9-f1ea-4c16-bd13-bdcc6eefcdf7">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="68d869b5-a485-419b-be72-e381d03308cd">
+    <name>ИмяПользователяТелеграм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя телеграм</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="02576ae9-42d0-44ae-9b55-b1ed25bec11d">
+    <name>ID_Пользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID пользователя</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
