@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fefadfa-3e0a-4d42-95c2-8cf3c25b7e2e">
+  <producedTypes>
+    <refType typeId="0f3fbfe0-bf5a-421e-b180-87907bb9f224" valueTypeId="c7b3e0d2-b776-49be-aba7-d05d27c1255e"/>
+    <listType typeId="7372b4f0-678c-46e2-baab-a57d67f49426" valueTypeId="82fc7eb5-9b3e-421b-aa68-4a76df0232a9"/>
+    <managerType typeId="8a10956e-024f-48be-8627-7f31f58153ad" valueTypeId="d630d182-aa53-4908-bd2d-5b6c48df8b30"/>
+  </producedTypes>
+  <name>ТипыОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы операций</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7be73af3-c05e-48b1-ad80-ad5c53954e00">
+    <name>about</name>
+    <synonym>
+      <key>ru</key>
+      <value>about</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fad4f873-c2db-405e-83ca-7bafddf1d617">
+    <name>iprf</name>
+    <synonym>
+      <key>ru</key>
+      <value>iprf</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9114c334-0d43-4621-bfcd-703d40217da6">
+    <name>news</name>
+    <synonym>
+      <key>ru</key>
+      <value>news</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

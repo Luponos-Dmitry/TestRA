@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b17856bf-c49f-47b4-931b-2072f8408f6e">
+  <name>TestRAПовторноИспользуемыеРас</name>
+  <synonym>
+    <key>ru</key>
+    <value>Test RAПовторно используемые рас</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>
