@@ -4,9 +4,14 @@
     <objectType typeId="7e0b88e4-5254-4b51-b67d-e09da54e162f" valueTypeId="6882c2b2-93cb-4cfe-9d60-938f0269d847"/>
     <managerType typeId="c1f4252e-971e-418a-b69f-1271e79d419a" valueTypeId="a3b0f147-09a0-4a26-ac75-efadf3570ee9"/>
   </producedTypes>
-  <name>Расш1_Обработка1</name>
+  <name>RA_ОбменССервисом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с сервисом (RA)</value>
+  </synonym>
+  <comment>+++ ATOS Симакова Е.С. Разработка тестового API 2024-08-22</comment>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>DataProcessor.Расш1_Обработка1.Form.Форма</defaultForm>
+  <defaultForm>DataProcessor.RA_ОбменССервисом.Form.Форма</defaultForm>
   <forms uuid="f6b81a6f-b030-4eaf-adbc-996a3445e21f">
     <name>Форма</name>
     <synonym>

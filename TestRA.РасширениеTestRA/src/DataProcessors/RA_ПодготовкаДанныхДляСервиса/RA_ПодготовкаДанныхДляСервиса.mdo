@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96b6564d-017f-4be6-bad4-5d0884a228cc">
+  <producedTypes>
+    <objectType typeId="28468679-e92b-4fc9-863d-573670595e98" valueTypeId="bddbcea9-2172-41a8-a025-51e86f8de855"/>
+    <managerType typeId="7f6dc47b-6288-492c-8a36-4556c07525a4" valueTypeId="efc5f114-26c7-49d7-9ea9-8d6f247f5656"/>
+  </producedTypes>
+  <name>RA_ПодготовкаДанныхДляСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подготовка данных для сервиса (RA)</value>
+  </synonym>
+  <comment>+++ ATOS Симакова Е.С. Разработка тестового API 2024-08-26</comment>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

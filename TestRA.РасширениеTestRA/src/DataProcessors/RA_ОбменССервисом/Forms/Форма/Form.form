@@ -689,7 +689,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.Расш1_Обработка1</types>
+      <types>DataProcessorObject.RA_ОбменССервисом</types>
     </valueType>
     <view>
       <common>true</common>

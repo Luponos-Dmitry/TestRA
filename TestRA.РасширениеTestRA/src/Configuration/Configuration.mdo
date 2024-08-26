@@ -30,7 +30,6 @@
   <defaultRoles>Role.Расш1_ОсновнаяРоль</defaultRoles>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.24</compatibilityMode>
   <languages uuid="1862d8b8-caf9-48fb-aeb6-756da6827560" extendedConfigurationObject="e3f89dc4-8585-4a1e-8604-2d25beb2dec2">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -45,5 +44,7 @@
   <commonModules>CommonModule.TestRAМетоды</commonModules>
   <catalogs>Catalog.СоединенияAPI</catalogs>
   <enums>Enum.ТипыОпераций</enums>
-  <dataProcessors>DataProcessor.Расш1_Обработка1</dataProcessors>
+  <dataProcessors>DataProcessor.RA_ОбменССервисом</dataProcessors>
+  <dataProcessors>DataProcessor.RA_ПодготовкаДанныхДляСервиса</dataProcessors>
+  <informationRegisters>InformationRegister.RA_ОбменССервисом</informationRegisters>
 </mdclass:Configuration>
