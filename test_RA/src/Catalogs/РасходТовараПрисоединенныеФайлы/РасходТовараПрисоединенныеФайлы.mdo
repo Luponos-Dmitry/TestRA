@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="508a5eb3-460b-42c2-8615-02d27213e45c">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e2ee9ab-180f-4765-8d62-78f5a14c73dc">
   <producedTypes>
-    <objectType typeId="c53f9dae-84b2-44b7-a5e3-90207951fca4" valueTypeId="ae03dbc1-f685-4505-b1b8-fd1e53c5e26d"/>
-    <refType typeId="da839dcf-0dbb-474a-895a-0f97ad49cc8a" valueTypeId="2cc49f8e-5283-4a2e-9747-0a63ad1412a8"/>
-    <selectionType typeId="2bceb9f2-d687-4ec5-908d-4f4169cc7147" valueTypeId="f8767956-738f-4f3c-96e3-9cc7bbcd7b25"/>
-    <listType typeId="4ed215a3-ef9f-4db1-a4fe-cf9c45994b9d" valueTypeId="679a2c85-f5cb-44b3-861f-23e921665d1d"/>
-    <managerType typeId="0b491d77-1dfb-42cb-b9d1-3a410edeeae7" valueTypeId="93debcf5-bfda-4297-97d0-c4153004b94a"/>
+    <objectType typeId="5ec6bfb0-3bf9-4b43-b562-db716e9ee6ff" valueTypeId="355674e2-ca16-45ba-a83f-ac6aed7d35c7"/>
+    <refType typeId="6138f852-2e6f-4f08-9eef-a911dee19f8c" valueTypeId="752986b1-eb1f-4186-8007-19d9959150b1"/>
+    <selectionType typeId="cc3ac2f9-7650-4883-a40a-601cd31770c9" valueTypeId="011f098a-f0d5-48db-a117-cf9e56c7518f"/>
+    <listType typeId="6ac7168d-e97a-4d89-9be9-5a4d119e5566" valueTypeId="cc0b1fa0-469d-414f-b6d2-363b9785520c"/>
+    <managerType typeId="dae5c18b-b9ed-49cf-bb2f-486a89c30934" valueTypeId="8cfc2e7e-b729-4bc6-ab15-54ea9573adbd"/>
   </producedTypes>
   <name>РасходТовараПрисоединенныеФайлы</name>
   <synonym>
