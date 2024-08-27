@@ -129,9 +129,7 @@
     <fillChecking>ShowError</fillChecking>
     <quickChoice>DontUse</quickChoice>
     <createOnInput>Use</createOnInput>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>604931cd-d4a8-48d0-bc59-2ac90e044abb.00000000-0000-0000-0000-000000000000</value>
-    </fillValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <use>ForFolderAndItem</use>
@@ -268,9 +266,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <quickChoice>DontUse</quickChoice>
     <createOnInput>Use</createOnInput>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>604931cd-d4a8-48d0-bc59-2ac90e044abb.00000000-0000-0000-0000-000000000000</value>
-    </fillValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <use>ForFolderAndItem</use>
     <dataHistory>Use</dataHistory>
@@ -432,9 +428,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <quickChoice>DontUse</quickChoice>
     <createOnInput>Use</createOnInput>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>604931cd-d4a8-48d0-bc59-2ac90e044abb.00000000-0000-0000-0000-000000000000</value>
-    </fillValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -565,6 +559,39 @@
     <synonym>
       <key>ru</key>
       <value>Публикуется в сервисах</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4766e38b-08c0-4d87-a4e6-d52b4afcde6d">
+    <name>КороткаяСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Короткая ссылка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a59aac9e-0beb-4ebf-a134-8ba7ba30fcd7">
+    <name>КороткаяСсылкаДоступна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Короткая ссылка доступна</value>
     </synonym>
     <type>
       <types>Boolean</types>

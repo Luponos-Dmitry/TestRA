@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73b03717-6d54-4334-ae7f-510406cb0b34">
+  <name>ЗапросВФайлыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрос в файлы номенклатуры</value>
+  </synonym>
+  <templateType>DataCompositionSchema</templateType>
+</mdclass:CommonTemplate>

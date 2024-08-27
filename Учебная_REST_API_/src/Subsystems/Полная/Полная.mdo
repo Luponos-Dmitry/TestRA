@@ -20,4 +20,6 @@
   <content>InformationRegister.КурсыВалют</content>
   <content>InformationRegister.IpRF</content>
   <content>DataProcessor.IpRFВФорматеRouterOS</content>
+  <content>InformationRegister.RAСообщения</content>
+  <content>Catalog.НоменклатураПрисоединенныеФайлы</content>
 </mdclass:Subsystem>

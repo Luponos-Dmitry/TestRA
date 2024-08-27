@@ -9,10 +9,10 @@
     <value>Присоединенный файл объект</value>
   </synonym>
   <type>
-    <types>CatalogObject.ПриходТовараПрисоединенныеФайлы</types>
     <types>CatalogObject.ВерсииФайлов</types>
-    <types>CatalogObject.РасходТовараПрисоединенныеФайлы</types>
+    <types>CatalogObject.ПриходТовараПрисоединенныеФайлы</types>
     <types>CatalogObject.ШаблоныСообщенийПрисоединенныеФайлы</types>
+    <types>CatalogObject.РасходТовараПрисоединенныеФайлы</types>
     <types>CatalogObject.Файлы</types>
     <types>CatalogObject.НоменклатураПрисоединенныеФайлы</types>
   </type>

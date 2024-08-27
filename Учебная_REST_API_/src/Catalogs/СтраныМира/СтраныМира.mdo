@@ -114,8 +114,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <characteristics>
-    <keyField>0</keyField>
-    <typesFilterField>0</typesFilterField>
     <typesFilterValue xsi:type="core:StringValue">
       <value>Справочник_СтраныМира</value>
     </typesFilterValue>

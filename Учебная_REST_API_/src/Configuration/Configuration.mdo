@@ -643,6 +643,7 @@
   <commonTemplates>CommonTemplate.ПустойМакетDOCX</commonTemplates>
   <commonTemplates>CommonTemplate.Макет</commonTemplates>
   <commonTemplates>CommonTemplate.СтруктураПодчиненности</commonTemplates>
+  <commonTemplates>CommonTemplate.ЗапросВФайлыНоменклатуры</commonTemplates>
   <filterCriteria>FilterCriterion.СвязанныеДокументы</filterCriteria>
   <commonModules>CommonModule.АдминистрированиеКластера</commonModules>
   <commonModules>CommonModule.ВнешниеКомпонентыСлужебный</commonModules>
@@ -889,6 +890,7 @@
   <commonModules>CommonModule.ПроведениеДокументовСервер</commonModules>
   <commonModules>CommonModule.TestRAМодули</commonModules>
   <commonModules>CommonModule.ТестовыйМодульОтЕлены</commonModules>
+  <commonModules>CommonModule.TestRa_РаботаСФайлами</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.CurrencyRates</xDTOPackages>

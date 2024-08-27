@@ -122,6 +122,39 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <tabularSections uuid="184276fa-92d8-4cc7-9c10-08c490dddb75">
+    <producedTypes>
+      <objectType typeId="37a0910c-b70e-417c-ae48-1d0d19bc911a" valueTypeId="2598f1d0-3de3-47b0-948f-a3188b1d41ef"/>
+      <rowType typeId="561aeb68-c726-4956-94c5-b268f798a183" valueTypeId="1b9c3b03-2490-4404-9b16-417f5513ce94"/>
+    </producedTypes>
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="12519111-1743-430c-ae1a-6396f14a13ed">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="6f010fe5-5c23-4da7-a5ed-c460c957e4cf">
     <name>ФормаСписка</name>
     <synonym>

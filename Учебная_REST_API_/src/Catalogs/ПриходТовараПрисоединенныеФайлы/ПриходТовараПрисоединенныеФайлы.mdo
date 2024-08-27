@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f745a3bd-9e89-45b8-b890-dc7a48156d61">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8d3acac-88be-4045-89e5-b564972aa3a7">
   <producedTypes>
-    <objectType typeId="083bc399-a348-4d68-a153-b9163129048a" valueTypeId="1ed4b64b-85e2-4010-a150-24a7c6b518d8"/>
-    <refType typeId="6e085424-5205-4b42-8c5a-e802c3ce90cc" valueTypeId="7c2affba-21ac-47d1-94cc-d99ab71a46ae"/>
-    <selectionType typeId="47783018-575d-4dfb-b7ad-ea497f435304" valueTypeId="f8475dda-6d27-42b6-a3a0-1e828754260c"/>
-    <listType typeId="3763d4c0-b454-41d0-82ed-eb6ae3932d53" valueTypeId="9279798c-be3d-4c79-8d40-386b396406c2"/>
-    <managerType typeId="0e2acad4-52be-4e87-8c5f-3bf3272bd974" valueTypeId="c2734019-bb08-4c05-a41c-b0165110a4b7"/>
+    <objectType typeId="2562ccf4-cc1d-4189-8564-652e6bb7f16b" valueTypeId="eb81b8e8-481d-45b6-99a4-76eb0c93394a"/>
+    <refType typeId="d1e987d9-b363-4d68-9c51-86f504cc8bbd" valueTypeId="fb4b7b97-36fb-4842-981c-0bcc5870fa94"/>
+    <selectionType typeId="ce050410-3a0a-4b0a-9b5f-0da18d74bf00" valueTypeId="5ad50252-e02e-4d94-9f84-800c5b19c11f"/>
+    <listType typeId="5406e055-a619-45c1-bbc5-be2d0fb72f6a" valueTypeId="e8a61f13-bc93-424a-b54a-fe96103943b6"/>
+    <managerType typeId="36ef3dc4-dd67-4cb4-a3a6-5816f1defe4a" valueTypeId="206964d3-8185-4fdb-80a8-5b831c9e1b7b"/>
   </producedTypes>
   <name>ПриходТовараПрисоединенныеФайлы</name>
   <synonym>
@@ -128,9 +128,7 @@
     <fillChecking>ShowError</fillChecking>
     <quickChoice>DontUse</quickChoice>
     <createOnInput>Use</createOnInput>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>604931cd-d4a8-48d0-bc59-2ac90e044abb.00000000-0000-0000-0000-000000000000</value>
-    </fillValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -263,9 +261,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <quickChoice>DontUse</quickChoice>
     <createOnInput>Use</createOnInput>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>604931cd-d4a8-48d0-bc59-2ac90e044abb.00000000-0000-0000-0000-000000000000</value>
-    </fillValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -424,9 +420,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <quickChoice>DontUse</quickChoice>
     <createOnInput>Use</createOnInput>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>604931cd-d4a8-48d0-bc59-2ac90e044abb.00000000-0000-0000-0000-000000000000</value>
-    </fillValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -546,6 +540,39 @@
       <value>Добавлять версии файла при окончании редактирования. Если отключить, тогда будет хранится только последняя версия.</value>
     </toolTip>
     <mask>false</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4e7dab90-70f5-4cc0-ae48-ef7df372689b">
+    <name>КороткаяСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Короткая ссылка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="16f17979-703b-456a-8346-bbd3a697f662">
+    <name>КороткаяСсылкаДоступна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Короткая ссылка доступна</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>

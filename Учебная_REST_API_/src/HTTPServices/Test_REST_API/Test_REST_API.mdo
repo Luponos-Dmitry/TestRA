@@ -49,4 +49,20 @@
       <handler>IPRFsendfile</handler>
     </methods>
   </urlTemplates>
+  <urlTemplates uuid="35665145-1630-4b26-8d93-c5e0f6364fe9">
+    <name>PipeMess</name>
+    <synonym>
+      <key>ru</key>
+      <value>Pipe mess</value>
+    </synonym>
+    <template>/*</template>
+    <methods uuid="aa56abe6-350d-4311-8a9b-a869101f8565">
+      <name>File</name>
+      <synonym>
+        <key>ru</key>
+        <value>File</value>
+      </synonym>
+      <handler>PipeMessFile</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>

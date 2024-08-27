@@ -16,7 +16,6 @@
   <content>AccumulationRegister.ОборотыТоваров</content>
   <content>Catalog.Валюты</content>
   <content>InformationRegister.КурсыВалют</content>
-  <content>InformationRegister.RAСообщения</content>
   <content>Catalog.ТомаФайлов</content>
   <content>Enum.СтатусДокумента</content>
   <content>Document.РасходТовара</content>

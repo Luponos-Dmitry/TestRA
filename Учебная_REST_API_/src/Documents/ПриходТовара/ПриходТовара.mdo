@@ -114,6 +114,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="9a149ef2-a4c2-4896-aaea-d69b507ce87c">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="e73fe878-28d5-4262-99d8-e3450793b3e3">
     <producedTypes>
       <objectType typeId="dfeaba16-661e-4c52-99bd-28b1b4e81ef2" valueTypeId="490a5404-61b8-4f35-8653-12c0e6f3638e"/>

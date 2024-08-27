@@ -106,4 +106,44 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="9a6f73c2-efdc-4577-ac39-27afe5bb11d6">
+    <name>Пользователи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="908b390c-5b07-4994-a490-875f15933933">
+    <producedTypes>
+      <objectType typeId="24f47a34-7b77-4ea9-923e-21641584a1b0" valueTypeId="2da32ef1-fece-4310-a950-09845e949a39"/>
+      <rowType typeId="23f36f8c-51ef-4130-9391-de573ae9c2d2" valueTypeId="256f3cfa-90b2-409b-93ba-8a21a83b2028"/>
+    </producedTypes>
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <attributes uuid="6de093f3-c7d6-4910-b4b1-cb7f0f1f979f">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Catalog>
