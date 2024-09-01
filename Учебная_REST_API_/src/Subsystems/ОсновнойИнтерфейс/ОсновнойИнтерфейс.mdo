@@ -86,4 +86,26 @@
   <content>DataProcessor.ТранспортСообщенийОбменаFTP</content>
   <content>DataProcessor.УниверсальныйОбменДаннымиXML</content>
   <content>DataProcessor.УстановкаОбновлений</content>
+  <content>Catalog.Telegram_КомандыСистемы</content>
+  <content>Catalog.Организации</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ДополнительныеОтчетыИОбработки</content>
+  <content>Catalog.ЗначенияСвойствОбъектов</content>
+  <content>Catalog.ЗначенияСвойствОбъектовИерархия</content>
+  <content>Catalog.НаборыДополнительныхРеквизитовИСведений</content>
+  <content>Catalog.ТомаФайлов</content>
+  <content>Catalog.НоменклатураПрисоединенныеФайлы</content>
+  <content>Catalog.РасходТовараПрисоединенныеФайлы</content>
+  <content>Document.ПриходТовара</content>
+  <content>Document.РасходТовара</content>
+  <content>Report.Telegram_ИсторияСообщений</content>
+  <content>DataProcessor.Telegram_ОбработкаОтладки</content>
+  <content>DataProcessor.ГрупповоеИзменениеРеквизитов</content>
+  <content>DataProcessor.ПоискИУдалениеДублей</content>
+  <content>DataProcessor.IpRFВФорматеRouterOS</content>
+  <content>DataProcessor.РегламентныеЗадания</content>
+  <content>InformationRegister.IpRF</content>
+  <content>InformationRegister.RAСообщения</content>
+  <content>AccumulationRegister.ОстаткиТоваров</content>
 </mdclass:Subsystem>

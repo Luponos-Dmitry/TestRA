@@ -68,7 +68,6 @@
   <subsystems>Subsystem.Полная</subsystems>
   <subsystems>Subsystem.ОсновнойИнтерфейс</subsystems>
   <subsystems>Subsystem.Ограниченная</subsystems>
-  <subsystems>Subsystem.Telegram</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
@@ -889,7 +888,6 @@
   <commonModules>CommonModule.Telegram_Сервер</commonModules>
   <commonModules>CommonModule.ПроведениеДокументовСервер</commonModules>
   <commonModules>CommonModule.TestRAМодули</commonModules>
-  <commonModules>CommonModule.ТестовыйМодульОтЕлены</commonModules>
   <commonModules>CommonModule.TestRa_РаботаСФайлами</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>

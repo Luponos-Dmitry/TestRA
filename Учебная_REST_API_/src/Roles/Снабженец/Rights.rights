@@ -33,13 +33,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.Ограниченная</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.СредняяЦена</name>
 		<right>
 			<name>Read</name>
