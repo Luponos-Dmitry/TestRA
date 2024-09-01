@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c185cc0-469f-4c78-ae87-7ba6c4b162c5">
+  <producedTypes>
+    <selectionType typeId="59426842-6a53-4736-90ff-be341979b700" valueTypeId="3f40ecc2-8906-490b-9004-74d0c6c00565"/>
+    <listType typeId="cfcbc65e-8502-4aec-80ea-1b284f1caa7c" valueTypeId="8ae09c64-89b0-4fb9-9bc5-5b22b3f8102b"/>
+    <managerType typeId="a75b2874-b9d0-431e-99c5-6f3a51713b35" valueTypeId="4d3cb26f-79cc-47ba-9fbd-28b12ce7d933"/>
+    <recordSetType typeId="e5adcba2-a2a3-4e59-8b9b-dbf7d06a0486" valueTypeId="76db43f5-fbe7-43f0-9f37-af8ffb32f5a8"/>
+    <recordKeyType typeId="48d69562-2005-423c-b981-b873eb7a62b7" valueTypeId="f5cae98b-0c54-4f5f-929c-9c427ae62a39"/>
+    <recordType typeId="4a35bdd1-50fc-4d14-b2af-f14b05875f4f" valueTypeId="cc760521-38e1-4137-8c9d-ff871a4daf96"/>
+    <recordManagerType typeId="b5784463-a731-4ad6-a736-9d4888283856" valueTypeId="dd1c1d54-2f1d-40ff-9ab0-956b87b30e26"/>
+  </producedTypes>
+  <name>СессииКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сессии контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e799cfe2-4c48-45c3-9a8b-28ddaa01fbc7">
+    <name>ДанныеСессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные сессии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="dcf4b79c-53e7-41df-80cc-9cd3905e6507">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="452f627c-026d-4e24-beb0-dd0c0a91e57d">
+    <name>Бот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бот</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Боты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="36f624e3-9de1-408a-9e25-414a26917720">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

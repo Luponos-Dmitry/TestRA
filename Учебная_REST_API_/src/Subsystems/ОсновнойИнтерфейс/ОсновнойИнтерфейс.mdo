@@ -86,7 +86,7 @@
   <content>DataProcessor.ТранспортСообщенийОбменаFTP</content>
   <content>DataProcessor.УниверсальныйОбменДаннымиXML</content>
   <content>DataProcessor.УстановкаОбновлений</content>
-  <content>Catalog.Telegram_КомандыСистемы</content>
+  <content>b1296ee7-03e9-4956-bee4-953827037003</content>
   <content>Catalog.Организации</content>
   <content>Catalog.Контрагенты</content>
   <content>Catalog.Номенклатура</content>
@@ -99,8 +99,8 @@
   <content>Catalog.РасходТовараПрисоединенныеФайлы</content>
   <content>Document.ПриходТовара</content>
   <content>Document.РасходТовара</content>
-  <content>Report.Telegram_ИсторияСообщений</content>
-  <content>DataProcessor.Telegram_ОбработкаОтладки</content>
+  <content>7b248dea-d189-4447-b996-e579669784bb</content>
+  <content>1eba9ca9-a858-4eba-9d6a-be416022ef5f</content>
   <content>DataProcessor.ГрупповоеИзменениеРеквизитов</content>
   <content>DataProcessor.ПоискИУдалениеДублей</content>
   <content>DataProcessor.IpRFВФорматеRouterOS</content>

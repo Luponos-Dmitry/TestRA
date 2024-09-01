@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3be64cba-b4d4-4845-865e-7e9428c48a3f">
+  <producedTypes>
+    <objectType typeId="d0be458b-0bad-4258-af25-8c1fe002b781" valueTypeId="8a06d5a0-eda9-4712-8197-b5eeb1b1318d"/>
+    <managerType typeId="49e543cb-6f4c-4d8c-b63a-f6c1298d3207" valueTypeId="dbb1c094-fa99-45d7-9c07-2e12a7e889cb"/>
+  </producedTypes>
+  <name>КлёвыйBot</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клёвый бот</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="6150cf7b-1209-4025-aa92-1b1e0f8f2f42">
+    <name>Справка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочная информация бота</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,10 +1,4 @@
 
-Функция PipeMessFile(Запрос)
-	
-	Возврат TestRAМодули.PipeMessFile(Запрос); 
-	
-КонецФункции
-
 Функция aboutme(Запрос)
 
 	Возврат TestRAМодули.aboutme(Запрос); 
@@ -26,5 +20,26 @@
 	Возврат Ответ;
 
 	Возврат TestRAМодули.ВыгрузитьДаныеРегистра_ipRF(); 
+КонецФункции
+
+
+Функция PipeMessFiles(Запрос)
+	
+	Возврат TestRAМодули.PipeMessFiles(Запрос); 
+	
+КонецФункции
+
+
+Функция GetMessageById(Запрос)
+	
+	Возврат TestRAМодули.GetMessageById(Запрос);
+
+КонецФункции
+
+
+Функция SendMessagesend(Запрос)
+	
+	Возврат TestRAМодули.SendMessage(Запрос);
+	
 КонецФункции
 

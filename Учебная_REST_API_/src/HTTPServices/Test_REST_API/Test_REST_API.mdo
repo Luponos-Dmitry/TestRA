@@ -23,15 +23,6 @@
       </synonym>
       <handler>aboutme</handler>
     </methods>
-    <methods uuid="0e9f480b-9cdf-4e53-ac71-6a06567c3ebb">
-      <name>o</name>
-      <synonym>
-        <key>ru</key>
-        <value>O</value>
-      </synonym>
-      <httpMethod>POST</httpMethod>
-      <handler>abouto</handler>
-    </methods>
   </urlTemplates>
   <urlTemplates uuid="24476ee1-e3a8-44b5-8f07-9ab9a6c6a09f">
     <name>IPRF</name>
@@ -55,14 +46,40 @@
       <key>ru</key>
       <value>Pipe mess</value>
     </synonym>
-    <template>/*</template>
+    <template>/pipe/*</template>
     <methods uuid="aa56abe6-350d-4311-8a9b-a869101f8565">
-      <name>File</name>
+      <name>Files</name>
       <synonym>
         <key>ru</key>
-        <value>File</value>
+        <value>Files</value>
       </synonym>
-      <handler>PipeMessFile</handler>
+      <handler>PipeMessFiles</handler>
+    </methods>
+    <methods uuid="dfc1e857-2a0d-4bd2-a022-c529b86cacba">
+      <name>ById</name>
+      <synonym>
+        <key>ru</key>
+        <value>By id</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>GetMessageById</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="a993d08b-dc29-4dc4-9c14-54c538fd99b2">
+    <name>SendMessage</name>
+    <synonym>
+      <key>ru</key>
+      <value>Send message</value>
+    </synonym>
+    <template>/sendmess/*</template>
+    <methods uuid="030dc064-6941-41e1-8786-eabc8805c3ac">
+      <name>send</name>
+      <synonym>
+        <key>ru</key>
+        <value>Send</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>SendMessagesend</handler>
     </methods>
   </urlTemplates>
 </mdclass:HTTPService>

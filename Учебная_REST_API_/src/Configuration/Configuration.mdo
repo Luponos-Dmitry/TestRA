@@ -885,10 +885,11 @@
   <commonModules>CommonModule.ШаблоныСообщенийСлужебный</commonModules>
   <commonModules>CommonModule.ШаблоныСообщенийСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыRestApi</commonModules>
-  <commonModules>CommonModule.Telegram_Сервер</commonModules>
   <commonModules>CommonModule.ПроведениеДокументовСервер</commonModules>
   <commonModules>CommonModule.TestRAМодули</commonModules>
   <commonModules>CommonModule.TestRa_РаботаСФайлами</commonModules>
+  <commonModules>CommonModule.Боты</commonModules>
+  <commonModules>CommonModule.ПрисоединенныеФайлы</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.CurrencyRates</xDTOPackages>
@@ -974,7 +975,6 @@
   <scheduledJobs>ScheduledJob.УдалениеНеактуальнойИнформацииСинхронизации</scheduledJobs>
   <scheduledJobs>ScheduledJob.УдалениеУстаревшихПараметровРаботыВерсийРасширений</scheduledJobs>
   <scheduledJobs>ScheduledJob.УстановкаПорядкаОтложенногоОбновленияВМоделиСервиса</scheduledJobs>
-  <scheduledJobs>ScheduledJob.Telegram_ПрочитатьСообщение</scheduledJobs>
   <settingsStorages>SettingsStorage.ОбщиеНастройки</settingsStorages>
   <settingsStorages>SettingsStorage.ПользовательскиеНастройки</settingsStorages>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
@@ -1205,8 +1205,7 @@
   <commonForms>CommonForm.ФормаНастроекОтчета</commonForms>
   <commonForms>CommonForm.ФормаОтчета</commonForms>
   <commonForms>CommonForm.РедактированиеДополнительныхСведений</commonForms>
-  <catalogs>Catalog.Telegram_КомандыСистемы</catalogs>
-  <catalogs>Catalog.ВерсииРасширений</catalogs>
+  <catalogs>Catalog.Боты</catalogs>
   <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
   <catalogs>Catalog.ВерсииФайлов</catalogs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
@@ -1237,7 +1236,7 @@
   <catalogs>Catalog.ШаблоныСообщений</catalogs>
   <catalogs>Catalog.ШаблоныСообщенийПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.Организации</catalogs>
-  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
   <catalogs>Catalog.ЗначенияСвойствОбъектов</catalogs>
@@ -1247,6 +1246,7 @@
   <catalogs>Catalog.НоменклатураПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ПриходТовараПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.РасходТовараПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
   <documents>Document.ПриходТовара</documents>
   <documents>Document.РасходТовара</documents>
   <enums>Enum.ВариантыИспользованияВнешнихКомпонент</enums>
@@ -1291,8 +1291,6 @@
   <enums>Enum.ФорматыСохраненияОтчетов</enums>
   <enums>Enum.ФорматыХраненияМногостраничныхФайлов</enums>
   <enums>Enum.ЦветностиИзображения</enums>
-  <enums>Enum.Telegram_ВидСообщения</enums>
-  <enums>Enum.Telegram_ТипыКоманд</enums>
   <enums>Enum.ФормыНалогообложения</enums>
   <enums>Enum.ВидыДнейПроизводственногоКалендаря</enums>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
@@ -1311,6 +1309,8 @@
   <enums>Enum.ТипыВерсийОбъекта</enums>
   <enums>Enum.ЦветаСвойств</enums>
   <enums>Enum.СтатусДокумента</enums>
+  <enums>Enum.ТипыСообщения</enums>
+  <enums>Enum.ВидыМатериалов</enums>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.КонтрольРассылкиОтчетов</reports>
   <reports>Report.ОбъемНенужныхФайлов</reports>
@@ -1320,7 +1320,6 @@
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.УниверсальныйОтчет</reports>
   <reports>Report.УчастникиГруппПользователей</reports>
-  <reports>Report.Telegram_ИсторияСообщений</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ВводКонтактнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.АктивныеПользователи</dataProcessors>
@@ -1358,12 +1357,12 @@
   <dataProcessors>DataProcessor.ТранспортСообщенийОбменаFTP</dataProcessors>
   <dataProcessors>DataProcessor.УниверсальныйОбменДаннымиXML</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаОбновлений</dataProcessors>
-  <dataProcessors>DataProcessor.Telegram_ОбработкаОтладки</dataProcessors>
   <dataProcessors>DataProcessor.ГрупповоеИзменениеРеквизитов</dataProcessors>
   <dataProcessors>DataProcessor.ПоискИУдалениеДублей</dataProcessors>
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
   <dataProcessors>DataProcessor.IpRFВФорматеRouterOS</dataProcessors>
   <dataProcessors>DataProcessor.РегламентныеЗадания</dataProcessors>
+  <dataProcessors>DataProcessor.КлёвыйBot</dataProcessors>
   <informationRegisters>InformationRegister.АдминистративнаяИерархия</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
@@ -1441,13 +1440,13 @@
   <informationRegisters>InformationRegister.УдалитьНастройкиТранспортаОбмена</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьРезультатыОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
-  <informationRegisters>InformationRegister.Telegram_ИсторияСообщений</informationRegisters>
-  <informationRegisters>InformationRegister.Telegram_Пользователи</informationRegisters>
-  <informationRegisters>InformationRegister.Telegram_Настройки</informationRegisters>
   <informationRegisters>InformationRegister.СредняяЦена</informationRegisters>
   <informationRegisters>InformationRegister.ДополнительныеСведения</informationRegisters>
   <informationRegisters>InformationRegister.IpRF</informationRegisters>
   <informationRegisters>InformationRegister.RAСообщения</informationRegisters>
+  <informationRegisters>InformationRegister.ЗапросыБоту</informationRegisters>
+  <informationRegisters>InformationRegister.СессииБотов</informationRegisters>
+  <informationRegisters>InformationRegister.СессииКонтрагентов</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОборотыТоваров</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>

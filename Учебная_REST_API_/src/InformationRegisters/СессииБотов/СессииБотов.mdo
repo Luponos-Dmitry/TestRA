@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46dd0465-d4df-433f-9027-d8a41f8b7a5e">
+  <producedTypes>
+    <selectionType typeId="7b886dbd-6228-4c4a-911e-93c52fa03095" valueTypeId="b6cf7094-3e0a-44af-8267-a83f9be76e5b"/>
+    <listType typeId="ac4467f9-cb25-4a11-81ba-413e968cd7d9" valueTypeId="89b706e7-c7db-49cf-b216-ce4b4e2377d6"/>
+    <managerType typeId="6d6439d4-788d-4953-bbba-8d4c4f940eb3" valueTypeId="b38dbf82-5ad6-481e-baae-a4086667d4e0"/>
+    <recordSetType typeId="fcd9a72a-867e-4316-9751-06c47236a6dd" valueTypeId="06e541be-9478-4913-868f-1f5f40def291"/>
+    <recordKeyType typeId="2289cc68-363e-4146-85c5-d59369526348" valueTypeId="2ef6d3a7-ba24-477f-9e6a-505b921e6f57"/>
+    <recordType typeId="966eabc5-e75a-42e9-a141-62112a896801" valueTypeId="cea085e9-5b1a-490d-934a-8a2edceef396"/>
+    <recordManagerType typeId="735dac36-2953-4f19-8afb-c8cba0104fd8" valueTypeId="890a4d34-713f-4d8a-ac18-bda5a4c67fa8"/>
+  </producedTypes>
+  <name>СессииБотов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сессии ботов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="259c3d40-58ea-469d-9484-2aea04660b1f">
+    <name>ДанныеСессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные сессии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>400</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="d1a0255b-2b9d-4f02-a956-d1c1b9c07f87">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="31dd62e7-6ba4-4db1-883e-0954429d7e5d">
+    <name>Бот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бот</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Боты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7df3c5ce-376d-4bd9-a985-83440357dc14">
+    <name>Сессия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сессия</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

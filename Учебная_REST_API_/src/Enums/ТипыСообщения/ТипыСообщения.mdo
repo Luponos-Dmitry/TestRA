@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9aae66aa-31c1-4186-8aca-17d18c3ff496">
+  <producedTypes>
+    <refType typeId="e2be5ce1-cb15-4490-841e-ee2a4556e28d" valueTypeId="f5dca980-3bc2-4732-9bb2-efe45bbd5ba4"/>
+    <listType typeId="0403697a-c385-4b54-993c-d2d43a25681d" valueTypeId="114be82b-2eb7-4a0c-b113-f9d39d6d48b4"/>
+    <managerType typeId="e0881434-fd5f-4809-ba70-9384872b8d2b" valueTypeId="47b99b67-fa90-4d99-a29a-14a01b23500c"/>
+  </producedTypes>
+  <name>ТипыСообщения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы сообщения</value>
+  </synonym>
+  <comment>Тип Telegram-сообщения</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cbe193de-0722-41d4-bdb3-b512282b42bf">
+    <name>message</name>
+    <synonym>
+      <key>ru</key>
+      <value>message</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2579e8bd-66e6-491a-b406-bd553329cfec">
+    <name>callbackquery</name>
+    <synonym>
+      <key>ru</key>
+      <value>CallbackQuery</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c02a4542-e1b8-498b-b045-a5e41a9fd539">
+    <name>location</name>
+    <synonym>
+      <key>ru</key>
+      <value>location</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
